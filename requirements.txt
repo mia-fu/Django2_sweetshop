@@ -1,0 +1,8 @@
+Python 3.7.4
+django 2.2
+mysql 5.7
+celery==4.3.0
+django-tinymce==2.6.0
+itsdangerous
+eventlet
+django-redis==4.11.0

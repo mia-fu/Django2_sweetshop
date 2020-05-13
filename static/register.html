@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+{% load staticfiles %}
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>甜甜小舖-注册</title>
+
+	<link rel="icon" href='{% static "images/sweetfresh.ico" %}' type="image/x-icon" />
+	<link rel="shortcut icon" href='{% static "images/sweetfresh.ico" %}' type="image/x-icon"/>
+
+	<link rel="icon" href="images/sweetfresh.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="images/sweetfresh.ico" type="image/x-icon"/>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css'%}">
+	<link rel="stylesheet" type="text/css" href='{% static "css/register.css" %}'>
+	<link rel="stylesheet" type="text/css" href='{% static "css/footer.css" %}'>
+	<script type="text/javascript" src='{% static "js/jquery-1.12.4.min.js" %}'></script>
+	<script type="text/javascript" src='{% static "js/register.js" %}'></script>
+</head>
+<body>
+	<div class="register_con">
+		<div class="l_con fl">
+			<a class="reg_logo"><img src='{% static "images/logo01.png" %}'></a>
+			<div class="reg_slogan">你想要的  ·  甜蜜送达</div>
+			<div class="reg_banner"></div>
+		</div>
+
+		<div class="r_con fr">
+			<div class="reg_title clearfix">
+				<h1>用户注册</h1>
+				<a href="#">登录</a>
+			</div>
+
+			<div class="reg_form clearfix">
+				<form method="post" action="/user/register">
+					<!-- 使用django的css防护-->
+					{% csrf_token %}
+				<ul>
+					<li>
+						<label>用户名:</label>
+						<input type="text" name="user_name" id="user_name">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>密码:</label>
+						<input type="password" name="pwd" id="pwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>确认密码:</label>
+						<input type="password" name="cpwd" id="cpwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>邮箱:</label>
+						<input type="text" name="email" id="email">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li class="agreement">
+						<input type="checkbox" name="allow" id="allow" checked="checked">
+						<label>同意”甜甜小舖用户使用协议“</label>
+						<span class="error_tip2">提示信息</span>
+					</li>
+					<li class="reg_sub">
+						<input type="submit" value="注 册" name="">
+					</li>
+				</ul>
+				</form>
+				<p> {{ errmsg }} </p>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+		</div>
+		<p>Copyright©2004-2020  甜甜小舖信息技术有限公司 版权所有</p>
+	</div>
+	
+</body>
+</html>
