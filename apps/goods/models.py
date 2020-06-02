@@ -38,7 +38,7 @@ class GoodsSKU(BaseModel):
 
     class Meta:
         db_table = 'ss_goods_sku'
-        verbose_name = '商品'
+        verbose_name = '商品SKU'
         verbose_name_plural = verbose_name
 
 

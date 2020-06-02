@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %}
 {% block title %}甜甜小舖-注册{% endblock title %}
 {% block topfiles %}
 	<script type="text/javascript" src='{% static "js/jquery-1.12.4.min.js" %}'></script>
@@ -11,15 +11,15 @@
 {% block body %}
 	<div class="register_con">
 		<div class="l_con fl">
-			<a class="reg_logo"><img src='{% static "images/logo01.png" %}'></a>
-			<div class="reg_slogan">你想要的  ·  甜蜜送达</div>
+			<a class="reg_logo"><img src='{% static "img/logo.jpg" %}'></a>
+			<div class="reg_slogan">奇思妙想  ·  姜饼小屋</div>
 			<div class="reg_banner"></div>
 		</div>
 
 		<div class="r_con fr">
 			<div class="reg_title clearfix">
 				<h1>用户注册</h1>
-				<a href="#">登录</a>
+				<a href="{% url 'user:login' %}">登录</a>
 			</div>
 
 			<div class="reg_form clearfix">

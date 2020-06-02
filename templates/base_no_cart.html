@@ -1,11 +1,11 @@
 {# 购物车 提交订单 用户中心3个页面 #}
 {% extends 'base.html' %}
-{% load staticfiles %}
+{% load static %}
 
 {# 网页顶部搜索框块 #}
 {% block search_bar %}
 	<div class="search_bar clearfix">
-		<a href="index.html" class="logo fl"><img src="{% static 'images/logo2.png' %}"></a>
+		<a href="{% url 'goods:index' %}" class="logo fl"><img src="{% static 'img/logo.jpg' %}"></a>
 		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;{% block page_title %}{% endblock page_title %}</div>
 		<div class="search_con fr">
 			<input type="text" class="input_text fl" name="" placeholder="搜索商品">

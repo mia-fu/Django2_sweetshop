@@ -1,0 +1,11 @@
+/* 页面底部样式 */
+.footer{
+	border-top:2px solid #7a2843;
+	margin:130px 0;
+}
+
+.foot_link{text-align:center;margin-top:30px;}
+.foot_link a,.foot_link span{color:#999999;}
+.foot_link a:hover{color:#999999}
+.foot_link span{padding:0 10px}
+.footer p{text-align:center; margin-top:10px;color:#999999}

@@ -96,12 +96,12 @@ html,body{height:100%}
 .subnav li a{display:block;height:44px;line-height:44px;text-indent:71px;font-size:14px;color:#333}
 .subnav li a:hover{color:#ff8800}
 
-.subnav li .fruit{background:url(../images/icons.png) 28px 0px no-repeat;}
-.subnav li .seafood{background:url(../images/icons.png) 28px -43px no-repeat;}
-.subnav li .meet{background:url(../images/icons.png) 28px -86px no-repeat;}
-.subnav li .egg{background:url(../images/icons.png) 28px -132px no-repeat;}
-.subnav li .vegetables{background:url(../images/icons.png) 28px -174px no-repeat;}
-.subnav li .ice{background:url(../images/icons.png) 28px -220px no-repeat;}
+.subnav li .love_cut{background:url(../images/icons.png) 28px 0px no-repeat;}
+.subnav li .snack{background:url(../images/icons.png) 28px -43px no-repeat;}
+.subnav li .massage{background:url(../images/icons.png) 28px -86px no-repeat;}
+.subnav li .recipe{background:url(../images/icons.png) 28px -132px no-repeat;}
+.subnav li .playgame{background:url(../images/icons.png) 28px -174px no-repeat;}
+.subnav li .to_others{background:url(../images/icons.png) 28px -220px no-repeat;}
 
 
 .slide{width:760px;height:270px;position:relative;overflow:hidden;}
@@ -194,7 +194,7 @@ html,body{height:100%}
 
 /* 商品列表样式 */
 
-.sort_bar{height:30px;background-color:#f0fdec}
+.sort_bar{height:30px;background-color:#F3F3F3}
 .sort_bar a{display:block;height:30px;line-height:30px;padding:0 20px;float:left;color:#000}
 .sort_bar .active{background-color:#37ab40;color:#fff;}
 
@@ -229,9 +229,9 @@ html,body{height:100%}
 /* 商品详情样式 */
 .goods_detail_con{
 	width:1198px;
-	height:398px;
+	height:468px;
 	border:1px solid #ededed;
-	margin:0 auto 20px;
+	margin:0 auto 0px;
 }
 
 .goods_detail_pic{width:350px;height:350px;margin:24px 0 0 24px;}
@@ -241,8 +241,8 @@ html,body{height:100%}
 .goods_detail_list h3{font-size:24px;line-height:24px;color:#666;font-weight:normal;}
 .goods_detail_list p{color:#666;line-height:40px;}
 .prize_bar{height:72px;background-color:#fff5f5;line-height:72px;}
-.prize_bar .show_pirze{font-size:20px;color:#ff3e3e;padding-left:20px}
-.prize_bar .show_pirze em{font-style:normal;font-size:36px;padding-left:10px}
+.prize_bar .show_pirce{font-size:20px;color:#ff3e3e;padding-left:20px}
+.prize_bar .show_pirce em{font-style:normal;font-size:36px;padding-left:10px}
 .prize_bar .show_unit{padding-left:150px}
 
 .goods_num{height:52px;margin-top:19px;}

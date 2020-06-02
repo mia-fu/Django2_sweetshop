@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'goods',  # 商品模块
     'cart',  # 购物车模块
     'order',  # 订单模块
+    'haystack',  # 注册全文检索框架
+
 ]
 
 MIDDLEWARE = [
@@ -85,11 +87,11 @@ WSGI_APPLICATION = 'sweetshop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sweetshop',
-        'USER': 'root',
-        'PASSWORD': 'fsy768394890',
-        'HOST': '127.0.0.1',
-        'POST': 3306,
+        'NAME': 'sweetshop',  # 这里和创建的数据库名相同
+        'USER': 'root',  # mysql的user名，默认root
+        'PASSWORD': '123456',  # 自己的数据库密码
+        'HOST': '192.168.1.62',  # 由于在本机，host为本机ip地址
+        'POST': 3306,  # 默认端口号
     }
 }
 
@@ -152,7 +154,7 @@ EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 
 # 发送邮件的邮箱
-EMAIL_HOST_USER ='768394890@qq.com'
+EMAIL_HOST_USER = '768394890@qq.com'
 
 # 在邮箱中设置的客户端授权密码
 EMAIL_HOST_PASSWORD = 'esoexobxrpoobgaf'
@@ -170,21 +172,27 @@ EMAIL_FROM = '甜甜小舖<768394890@qq.com>'
 # 全文搜索应用配置
 HAYSTACK_CONNECTIONS = {
     'default': {
-        # 'ENGINE': 'fswy.whoosh_cn_backend.WhooshEngine',  # 选择语言解析器为自己更换的结巴分词
+        # 使用whoosh引擎
+        # 'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'ENGINE': 'haystack.backends.whoosh_cn_backend.WhooshEngine',
+        # 索引文件路径
         'PATH': os.path.join(BASE_DIR, 'whoosh_index'),  # 保存索引文件的地址，选择主目录下，这个会自动生成
     }
 }
-# 自动更新索引
+# 当添加、修改、删除数据时，自动生成索引
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
+# 指定搜索结果每页显示的条数
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
 
 # Django的缓存配置
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": "redis://192.168.1.62:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+
         }
     }
 }
@@ -193,5 +201,18 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
 
+# 配置登录url地址
 # Users center under the condition of the login to access
 LOGIN_URL = '/user/login'
+
+# 设置Django的文件存储类
+DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
+
+# 设置fdfs使用的client.conf文件路径
+FDFS_CLIENT_CONF = 'D:/sweetshop/utils/fdfs/client.conf'
+
+# 设置fdfs存储服务器上nginx的IP和端口号
+FDFS_URL = 'http://192.168.1.62:8888/'
+
+ALLOWED_HOSTS = ['192.168.1.7',
+                 '127.0.0.1']
