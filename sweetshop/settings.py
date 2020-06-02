@@ -89,8 +89,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sweetshop',  # 这里和创建的数据库名相同
         'USER': 'root',  # mysql的user名，默认root
-        'PASSWORD': '123456',  # 自己的数据库密码
-        'HOST': '192.168.1.62',  # 由于在本机，host为本机ip地址
+        'PASSWORD': 'root',  # 自己的数据库密码
+        'HOST': '127.0.0.1',  # 由于在本机，host为本机ip地址
         'POST': 3306,  # 默认端口号
     }
 }
@@ -154,10 +154,10 @@ EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 
 # 发送邮件的邮箱
-EMAIL_HOST_USER = '768394890@qq.com'
+EMAIL_HOST_USER = '0000000@qq.com'
 
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = 'esoexobxrpoobgaf'
+EMAIL_HOST_PASSWORD = 'xxxxxx'
 
 # 这里的是前缀，也就是头
 EMAIL_SUBJECT_PREFIX = u'[Sercheif]'
@@ -167,7 +167,7 @@ EMAIL_SUBJECT_PREFIX = u'[Sercheif]'
 EMIAL_USE_TLS = False
 
 # 收件人看到的发件人
-EMAIL_FROM = '甜甜小舖<768394890@qq.com>'
+EMAIL_FROM = '甜甜小舖<0000000@qq.com>'
 
 # 全文搜索应用配置
 HAYSTACK_CONNECTIONS = {
