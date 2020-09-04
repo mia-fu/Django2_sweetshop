@@ -1,5 +1,7 @@
 # 姜饼小屋项目总结 — Django2.2版本
 
+## [Python疫情监控系统项目介绍](https://github.com/mia-fu/Django2_sweetshop/blob/master/Python%E7%96%AB%E6%83%85%E7%9B%91%E6%8E%A7.md)
+
 ## 1. 简介
 
 本项目采用django2.2.0，该项目包含了实际开发中的电商项目中大部分的功能开发和知识点时间。在此记录一个多月以来走过这个项目的过程，包括 django 版本问题的坑等等，希望自己在程序媛的道路上越走越远╭(′▽`)╯。
