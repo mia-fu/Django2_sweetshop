@@ -1,0 +1,791 @@
+2020-05-13 09:58:15,820 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:05:57,708 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:08:19,732 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:08:21,348 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:08:29,877 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:08:33,321 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:08:42,529 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:08:45,369 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:11:04,766 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\urls.py changed, reloading.
+2020-05-13 10:11:06,999 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:13:51,888 INFO  [user.views:240] username:fsy26
+2020-05-13 10:13:51,888 INFO  [user.views:241] password:123
+2020-05-13 10:19:43,760 INFO  [user.views:240] username:fsy1
+2020-05-13 10:19:43,760 INFO  [user.views:241] password:123
+2020-05-13 10:19:58,604 WARNI [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /user/login
+2020-05-13 10:20:04,542 WARNI [django.request:228] Not Found: /login.html
+2020-05-13 10:20:06,319 WARNI [django.request:228] Not Found: /login.html
+2020-05-13 10:20:23,732 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:20:23,735 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:20:23,799 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:20:23,818 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:20:23,829 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:20:27,868 WARNI [django.request:228] Not Found: /login.html
+2020-05-13 10:28:46,264 INFO  [user.views:240] username:fsy1
+2020-05-13 10:28:46,264 INFO  [user.views:241] password:123
+2020-05-13 10:28:46,652 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:28:46,658 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:28:46,675 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:28:46,679 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:28:46,688 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:28:54,480 INFO  [user.views:240] username:fsy1
+2020-05-13 10:28:54,480 INFO  [user.views:241] password:123
+2020-05-13 10:28:54,819 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:28:54,822 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:28:54,827 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:28:54,832 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:28:54,835 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:28:58,273 WARNI [django.request:228] Not Found: /user/index
+2020-05-13 10:29:01,434 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:29:01,451 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:29:01,476 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:29:01,481 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:29:01,486 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:29:18,134 WARNI [django.request:228] Not Found: /index.html
+2020-05-13 10:29:48,601 INFO  [user.views:240] username:fsy1
+2020-05-13 10:29:48,602 INFO  [user.views:241] password:123
+2020-05-13 10:30:19,393 WARNI [django.request:228] Not Found: /index.html
+2020-05-13 10:31:18,592 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:31:18,604 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:31:18,629 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:31:18,636 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:31:18,640 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:31:19,425 WARNI [django.request:228] Not Found: /user/index.html
+2020-05-13 10:32:28,462 ERROR [django.request:228] Internal Server Error: /user/
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 307, in get
+    return render(request, 'user_center_info.html', {'page': 'user'})
+  File "C:\Python3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Python3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Python3\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Python3\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Python3\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+2020-05-13 10:32:46,677 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:32:46,711 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:32:46,713 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:32:46,723 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:32:46,733 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:32:49,083 WARNI [django.request:228] Not Found: /user/index.html
+2020-05-13 10:32:53,318 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:32:53,322 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:32:53,330 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:32:53,333 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:32:53,337 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:32:55,088 WARNI [django.request:228] Not Found: /user/cart.html
+2020-05-13 10:32:57,425 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 10:32:59,859 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:32:59,870 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:32:59,893 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:32:59,897 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:32:59,903 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:33:00,697 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 10:33:20,362 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 10:33:21,061 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 10:51:30,785 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:51:33,254 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:51:52,331 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:51:54,505 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:53:33,748 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:53:36,294 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:54:38,099 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:54:39,956 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:56:06,531 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:56:08,521 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:57:46,079 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 10:57:47,591 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 10:57:47,661 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 10:57:47,665 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 10:57:47,681 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 10:57:47,714 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 10:58:07,204 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 10:58:09,898 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:01:31,491 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:01:33,189 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:24:57,863 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:25:17,224 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:25:30,692 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:25:41,536 WARNI [django.request:228] Not Found: /user/reGISTER
+2020-05-13 11:51:15,016 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:51:16,838 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:51:30,415 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:51:32,431 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:52:15,565 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:52:17,431 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:53:10,347 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:53:12,445 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:53:28,854 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 11:53:28,876 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 11:53:28,880 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 11:53:28,883 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 11:53:28,893 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 11:53:30,758 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 11:56:43,385 INFO  [user.views:240] username:fsy1
+2020-05-13 11:56:43,385 INFO  [user.views:241] password:123
+2020-05-13 11:58:48,649 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 11:58:50,510 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 11:58:51,802 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 327, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-13 12:00:00,252 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-13 12:00:02,502 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 12:00:23,708 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-13 12:00:29,748 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 327, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-13 12:00:33,765 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-13 12:00:33,788 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-13 12:00:33,818 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-13 12:00:33,834 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-13 12:00:33,846 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-13 12:00:35,147 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-13 12:00:36,148 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 327, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-13 12:01:25,892 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 327, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-14 11:18:31,752 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:18:49,719 INFO  [user.views:240] username:fsy1
+2020-05-14 11:18:49,719 INFO  [user.views:241] password:123
+2020-05-14 11:18:54,795 ERROR [django.request:228] Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Python3\lib\site-packages\django_redis\client\default.py", line 474, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 255, in post
+    login(request, user)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "C:\Python3\lib\site-packages\django\contrib\sessions\backends\base.py", line 297, in cycle_key
+    self.create()
+  File "C:\Python3\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Python3\lib\site-packages\django\contrib\sessions\backends\base.py", line 152, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Python3\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Python3\lib\site-packages\django\core\cache\backends\base.py", line 208, in __contains__
+    return self.has_key(key)
+  File "C:\Python3\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "C:\Python3\lib\site-packages\django_redis\client\default.py", line 472, in has_key
+    return client.exists(key) == 1
+  File "C:\Python3\lib\site-packages\redis\client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "C:\Python3\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Python3\lib\site-packages\redis\connection.py", line 1182, in get_connection
+    connection.connect()
+  File "C:\Python3\lib\site-packages\redis\connection.py", line 554, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2020-05-14 11:18:55,357 WARNI [django.request:228] Not Found: /favicon.ico
+2020-05-14 11:22:50,578 INFO  [user.views:240] username:fsy1
+2020-05-14 11:22:50,578 INFO  [user.views:241] password:123
+2020-05-14 11:23:38,135 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:23:43,184 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:23:50,207 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:23:51,942 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:28:57,306 INFO  [user.views:240] username:fsy1
+2020-05-14 11:28:57,307 INFO  [user.views:241] password:123
+2020-05-14 11:29:30,627 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:29:30,630 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:29:30,657 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:29:30,659 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:29:30,662 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:29:32,942 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:29:33,694 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 335, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-14 11:29:36,850 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:29:36,876 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:29:36,881 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:29:36,888 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:29:36,893 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:29:37,473 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:29:38,765 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 335, in get
+    default_address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-14 11:30:03,603 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:30:03,624 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:30:03,629 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:30:03,631 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:30:03,637 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:34:03,374 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:34:05,629 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:34:08,779 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:34:09,470 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:34:09,475 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:34:09,521 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:34:09,529 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:34:09,532 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:34:10,419 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 339, in get
+    address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-14 11:35:25,998 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:35:33,854 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:35:33,857 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:35:33,891 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:35:33,898 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:35:33,904 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:36:55,442 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:36:55,470 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:36:55,472 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:36:55,476 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:36:55,479 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:37:23,441 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:37:24,656 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:37:24,666 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:37:24,692 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:37:24,697 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:37:24,701 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:38:04,323 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:38:04,342 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:38:04,346 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:38:04,357 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:38:04,363 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:38:06,690 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:38:06,693 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:38:06,697 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:38:06,701 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:38:06,705 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:38:22,618 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:38:31,616 INFO  [user.views:240] username:fsy1
+2020-05-14 11:38:31,617 INFO  [user.views:241] password:123
+2020-05-14 11:38:31,998 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:38:32,001 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:38:32,011 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:38:32,023 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:38:32,029 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:40:22,431 WARNI [django.request:228] Not Found: /user/regster
+2020-05-14 11:43:21,550 INFO  [user.views:240] username:fsy1
+2020-05-14 11:43:21,550 INFO  [user.views:241] password:123
+2020-05-14 11:43:21,875 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:43:21,931 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:43:21,936 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:43:21,941 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:43:21,945 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:43:24,791 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:43:25,428 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 339, in get
+    address = Address.objects.get_default_address(user)
+AttributeError: 'Manager' object has no attribute 'get_default_address'
+2020-05-14 11:43:31,939 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:43:31,943 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:43:31,948 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:43:31,951 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:43:31,959 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:43:32,434 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:45:10,336 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:45:11,725 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:45:30,817 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:45:33,434 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:45:47,977 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 11:45:49,677 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:48:25,685 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:48:53,759 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 343, in get
+    return render(request, 'user_center_site.html', {'page': 'address', 'address': address})
+UnboundLocalError: local variable 'address' referenced before assignment
+2020-05-14 11:51:19,883 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:51:22,704 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:51:23,281 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:51:23,286 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:51:23,309 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:51:23,330 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:51:23,341 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:51:25,374 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:51:26,495 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:51:26,506 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:51:26,530 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:51:26,533 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:51:26,536 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:51:27,547 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:51:28,293 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:51:28,328 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:51:28,331 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:51:28,336 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:51:28,340 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:51:32,477 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:51:32,489 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:51:32,515 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:51:32,517 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:51:32,524 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:53:11,896 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 377, in post
+    if address:
+UnboundLocalError: local variable 'address' referenced before assignment
+2020-05-14 11:53:54,656 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 377, in post
+    if address:
+UnboundLocalError: local variable 'address' referenced before assignment
+2020-05-14 11:53:56,875 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 377, in post
+    if address:
+UnboundLocalError: local variable 'address' referenced before assignment
+2020-05-14 11:56:00,753 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 377, in post
+    if address:
+UnboundLocalError: local variable 'address' referenced before assignment
+2020-05-14 11:57:45,257 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:58:05,020 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 11:58:15,141 INFO  [user.views:240] username:fsy1
+2020-05-14 11:58:15,141 INFO  [user.views:241] password:123
+2020-05-14 11:58:17,705 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 11:58:17,716 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 11:58:17,731 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 11:58:17,735 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 11:58:17,753 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 11:58:18,338 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 11:59:40,174 ERROR [django.request:228] Internal Server Error: /user/address
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'errmsg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python3\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\sweetshop\apps\user\views.py", line 359, in post
+    return render(request, 'user_center_site.html', {'errmsg': '数据不完整'})
+  File "C:\Python3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python3\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python3\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Python3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Python3\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Python3\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 38: 'errmsg', expected 'endblock'. Did you forget to register or load this tag?
+2020-05-14 12:02:07,484 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\models.py changed, reloading.
+2020-05-14 12:02:09,454 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 12:03:03,718 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\models.py changed, reloading.
+2020-05-14 12:03:05,760 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 12:04:01,728 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\models.py changed, reloading.
+2020-05-14 12:04:03,503 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 12:08:26,752 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 12:08:40,655 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 12:08:43,975 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 12:08:50,036 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:08:50,040 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:08:50,054 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:08:50,057 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:08:50,061 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:08:51,937 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:08:51,941 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:08:51,949 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:08:51,955 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:08:51,958 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:08:54,417 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:08:54,427 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:08:54,451 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:08:54,455 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:08:54,460 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:08:56,804 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 12:08:59,482 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 12:09:00,064 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:09:00,073 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:09:00,080 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:09:00,094 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:09:00,099 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:09:55,054 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:09:55,069 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:09:55,086 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:09:55,091 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:09:55,094 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:13:38,620 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:13:38,646 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:13:38,652 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:13:38,662 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:13:38,666 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:13:42,028 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:13:42,044 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:13:42,064 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:13:42,067 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:13:42,077 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:14:40,351 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:14:40,366 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:14:40,385 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:14:40,389 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:14:40,397 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:14:41,147 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:14:41,151 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:14:41,153 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:14:41,162 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:14:41,170 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:14:51,896 INFO  [user.views:240] username:fsy1
+2020-05-14 12:14:51,896 INFO  [user.views:241] password:123
+2020-05-14 12:14:52,246 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 12:14:52,273 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 12:14:52,280 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 12:14:52,282 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 12:14:52,287 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 12:14:53,740 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 13:54:56,114 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:54:56,117 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:54:56,150 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:54:56,157 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:54:56,161 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:54:57,460 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:54:57,468 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:54:57,472 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:54:57,477 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:54:57,481 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:54:59,265 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 13:56:59,504 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 13:57:04,553 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:57:04,557 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:57:04,564 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:57:04,568 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:57:04,572 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:57:06,285 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 13:57:08,728 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:57:08,732 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:57:08,741 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:57:08,744 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:57:08,747 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:57:10,376 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 13:57:10,865 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:57:10,871 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:57:10,902 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:57:10,906 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:57:10,912 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:59:04,892 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 13:59:06,249 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:59:06,253 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:59:06,261 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 13:59:06,265 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:59:06,269 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:59:48,905 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 13:59:48,909 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 13:59:48,932 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 13:59:48,936 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 13:59:48,940 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 14:13:32,153 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 14:13:33,645 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 14:46:12,752 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 14:46:19,313 INFO  [user.views:327] sku_ids: []
+2020-05-14 14:46:19,391 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 14:46:19,440 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 14:46:19,443 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 14:46:19,465 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 14:46:19,488 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 14:46:50,189 INFO  [user.views:327] sku_ids: []
+2020-05-14 14:46:50,236 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 14:46:50,240 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 14:46:50,258 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 14:46:50,261 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 14:46:50,266 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 14:46:51,143 WARNI [django.request:228] Not Found: /user/images/goods02.jpg
+2020-05-14 14:46:52,762 INFO  [user.views:327] sku_ids: []
+2020-05-14 14:46:52,796 WARNI [django.request:228] Not Found: /user/images/goods/goods003.jpg
+2020-05-14 14:46:52,819 WARNI [django.request:228] Not Found: /user/images/goods/goods004.jpg
+2020-05-14 14:46:52,822 WARNI [django.request:228] Not Found: /user/images/goods/goods005.jpg
+2020-05-14 14:46:52,825 WARNI [django.request:228] Not Found: /user/images/goods/goods007.jpg
+2020-05-14 14:46:52,828 WARNI [django.request:228] Not Found: /user/images/goods/goods006.jpg
+2020-05-14 14:47:21,130 INFO  [django.utils.autoreload:203] D:\sweetshop\apps\user\views.py changed, reloading.
+2020-05-14 14:47:22,777 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-14 15:06:18,440 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-15 12:21:23,889 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-15 12:33:07,538 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-15 12:36:24,161 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-15 12:44:49,921 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-15 16:07:58,235 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-16 10:50:14,391 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-16 10:51:49,802 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-16 14:26:58,199 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-16 14:28:20,747 INFO  [user.views:242] username:fsy1
+2020-05-16 14:28:20,747 INFO  [user.views:243] password:123
+2020-05-16 14:58:19,706 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-05-16 15:00:49,566 INFO  [user.views:242] username:fsy1
+2020-05-16 15:00:49,566 INFO  [user.views:243] password:123

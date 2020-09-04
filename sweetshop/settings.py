@@ -14,10 +14,13 @@ import os
 
 # 导入搜索类
 import sys
+import logging
+
+LOG = logging.getLogger(__name__)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(BASE_DIR)
+LOG.info('BASE_DIR:  ' + str(BASE_DIR))
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
@@ -27,11 +30,12 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 SECRET_KEY = 'a73mnp^l_wpg7*@babb93pyyrc0w&$1!+l4%**p56%(1@60^dg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
-# Application definition
+# Application definitionifcon
 
 INSTALLED_APPS = [
     'simpleui',
@@ -90,9 +94,17 @@ DATABASES = {
         'NAME': 'sweetshop',  # 这里和创建的数据库名相同
         'USER': 'root',  # mysql的user名，默认root
         'PASSWORD': 'root',  # 自己的数据库密码
-        'HOST': '127.0.0.1',  # 由于在本机，host为本机ip地址
+        'HOST': '192.168.8.130',  # 由于在本机，host为本机ip地址
         'POST': 3306,  # 默认端口号
-    }
+    },
+    # 'mysql1': {  # 配置第二个数据库节点名称
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'cov',
+    #     'USER': 'root',
+    #     'PASSWORD': 'root',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    # },
 }
 
 # Password validation
@@ -137,7 +149,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 # # 指定收集静态文件的路径
-# STATIC_ROOT = '/var/www/dailyfresh/static'
+STATIC_ROOT = '/var/www/sweetshop/static'
 
 # 富文本编辑器配置
 TINYMCE_DEFAULT_CONFIG = {
@@ -149,15 +161,15 @@ TINYMCE_DEFAULT_CONFIG = {
 # 发送邮件配置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-# smpt服务地址
+# smtp服务地址
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 
 # 发送邮件的邮箱
-EMAIL_HOST_USER = '0000000@qq.com'
+EMAIL_HOST_USER = '自己的qq@qq.com'
 
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = 'xxxxxx'
+EMAIL_HOST_PASSWORD = 'dsadsadaoobgaf'
 
 # 这里的是前缀，也就是头
 EMAIL_SUBJECT_PREFIX = u'[Sercheif]'
@@ -167,7 +179,7 @@ EMAIL_SUBJECT_PREFIX = u'[Sercheif]'
 EMIAL_USE_TLS = False
 
 # 收件人看到的发件人
-EMAIL_FROM = '甜甜小舖<0000000@qq.com>'
+EMAIL_FROM = '姜饼小屋<自己的qq@qq.com>'
 
 # 全文搜索应用配置
 HAYSTACK_CONNECTIONS = {
@@ -189,7 +201,7 @@ HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.1.62:6379/1",
+        "LOCATION": "redis://192.168.8.130:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
 
@@ -209,10 +221,33 @@ LOGIN_URL = '/user/login'
 DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
 
 # 设置fdfs使用的client.conf文件路径
-FDFS_CLIENT_CONF = 'D:/sweetshop/utils/fdfs/client.conf'
+FDFS_CLIENT_CONF = '/etc/fdfs/client.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
-FDFS_URL = 'http://192.168.1.62:8888/'
+FDFS_URL = 'http://192.168.8.130:8888/'
 
-ALLOWED_HOSTS = ['192.168.1.7',
-                 '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+
+# 支付宝沙箱APP_ID
+ALIPAY_APP_ID = '2016102400749766'
+
+# 支付宝网站回调url地址
+ALIPAY_APP_NOTIFY_URL = None
+
+# 支付宝同步return_url地址
+ALIPAY_APP_RETURN_URL = 'http://192.168.8.130:8000/order/check'
+
+# 网站私钥文件路径
+APP_PRIVATE_KEY_PATH = os.path.join(BASE_DIR, 'apps/order/app_private_key.pem')
+LOG.info('APP_PRIVATE_KEY_PATH: ' + str(APP_PRIVATE_KEY_PATH))
+# 支付宝公钥文件路径
+ALIPAY_PUBLIC_KEY_PATH = os.path.join(BASE_DIR, 'apps/order/alipay_public_key.pem')
+LOG.info('ALIPAY_PUBLIC_KEY_PATH: ' + str(ALIPAY_PUBLIC_KEY_PATH))
+
+# 支付宝支付的开发模式
+ALIPAY_DEBUG = True
+
+# 支付宝沙箱支付网关地址
+ALIPAY_GATEWAY_URL = 'https://openapi.alipaydev.com/gateway.do?'
+
+

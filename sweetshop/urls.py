@@ -17,15 +17,15 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 from django.conf.urls import url
 
-
 app_name = 'apps'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tinymce/', include(('tinymce.urls', 'tinymce'))), # 富文本编辑器
+    path('tinymce/', include(('tinymce.urls', 'tinymce'))),  # 富文本编辑器
     path('user/', include(('user.urls', 'user'), namespace='user')),
     path('cart/', include(('cart.urls', 'cart'), namespace='cart')),
     path('order/', include(('order.urls', 'order'), namespace='order')),
     path('', include(('goods.urls', 'goods'), namespace='goods')),
+    path('cov/', include(('cov.urls', 'cov'), namespace='cov')),
     path('search/', include(('haystack.urls', 'haystack'))),  # 去交给全文检索框架
 ]

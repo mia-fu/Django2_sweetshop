@@ -18,8 +18,9 @@
       <sourceFolder url="file://$MODULE_DIR$/apps/order" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/cart" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/user" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/cov" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (sweetshop)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

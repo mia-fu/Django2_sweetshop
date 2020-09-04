@@ -13,14 +13,17 @@
     </div>
 
     <div class="goods_detail_con clearfix">
-        <div class="goods_detail_pic fl"><img src="{{ sku.image.url }}"></div>
-
+        {% for good in detail_goods %}
+        <div class="goods_detail_pic fl"><img src="{{ good.image.url }}"></div>
+        {% endfor %}
         <div class="goods_detail_list fr">
             <h3>{{ sku.name }}</h3>
             <p>{{ sku.desc }}</p>
             <div class="prize_bar">
                 <span class="show_pirce">¥<em>{{ sku.price }}</em></span>
                 <span class="show_unit">单  位：{{ sku.unite }}</span>
+                <span class="show_unit">库  存：{{ sku.stock }} {{ sku.unite }}</span>
+
             </div>
             <div class="goods_num clearfix">
                 <div class="num_name fl">数 量：</div>
@@ -70,18 +73,18 @@
 
         <div class="r_wrap fr clearfix">
             <ul class="detail_tab clearfix">
-                <li class="active">商品介绍</li>
-                <li>评论</li>
+                <li id='tag_detail' class="active">商品介绍</li>
+                <li id="tag_comment">评论</li>
             </ul>
 
-            <div class="tab_content">
+            <div class="tab_content" id="tab_detail">
                 <dl>
                     <dt>商品详情：</dt>
                     <dd>{{ sku.goods.detail|safe }}</dd>
                 </dl>
             </div>
 
-            <div class="tab_content">
+            <div class="tab_content" id="tab_commit" style="display: none">
                 <dl>
                     {% for order in sku_orders %}
                         <dt>评论时间：{{ order.update_time }}&nbsp;&nbsp;用户名：{{ order.order.user.username }}</dt>
@@ -102,6 +105,21 @@
 {% block bottomfiles %}
     <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
     <script type="text/javascript">
+        $('#tag_detail').click(function () {
+            $('#tag_comment').removeClass('active')
+            $(this).addClass('active')
+            $('#tab_detail').show()
+            $('#tab_commit').hide()
+        })
+
+        $('#tag_comment').click(function () {
+            $('#tag_detail').removeClass('active')
+            $(this).addClass('active')
+            $('#tab_commit').show()
+            $('#tab_detail').hide()
+        })
+
+
         update_goods_amount()
         // 计算商品的总价
         function update_goods_amount() {

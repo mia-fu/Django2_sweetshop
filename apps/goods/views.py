@@ -9,6 +9,9 @@ from django.core.paginator import Paginator
 from goods.models import GoodsType, GoodsSKU, IndexGoodsBanner, IndexPromotionBanner, IndexTypeGoodsBanner, GoodsImage
 from order.models import OrderGoods
 
+import time
+from django.http import HttpResponse
+
 import logging
 
 LOG = logging.getLogger(__name__)
@@ -83,6 +86,8 @@ class DetailView(View):
         """显示详情页"""
         try:
             sku = GoodsSKU.objects.get(id=goods_id)
+
+            LOG.info('sku = ' + str(sku))
         except GoodsSKU.DoesNotExist:
             # 商品不存在
             return redirect(reverse('goods:index'))
@@ -93,8 +98,15 @@ class DetailView(View):
         # 获取商品的评论信息
         sku_orders = OrderGoods.objects.filter(sku=sku).exclude(comment='')
 
+
+        ## 获取商品的详情图片
+        detail_goods = GoodsImage.objects.filter(sku=sku)
+
+        LOG.info('detail_goods = ' + str(detail_goods))
+
         # 获取新品信息
         new_skus = GoodsSKU.objects.filter(type=sku.type).order_by('-create_time')[:2]
+        LOG.info('new_skus = ' + str(new_skus))
 
         # 获取同一个SPU的其他规格商品
         same_spu_skus = GoodsSKU.objects.filter(goods=sku.goods).exclude(id=goods_id)
@@ -123,6 +135,7 @@ class DetailView(View):
         context = {'sku': sku,
                    'types': types,
                    'sku_orders': sku_orders,
+                   'detail_goods': detail_goods,
                    'new_skus': new_skus,
                    'same_spu_skus': same_spu_skus,
                    'cart_count': cart_count,
@@ -164,7 +177,7 @@ class ListView(View):
             skus = GoodsSKU.objects.filter(type=type).order_by('-id')
 
         # 对数据进行分页
-        paginator = Paginator(skus, 1)
+        paginator = Paginator(skus, 3)
 
         # 获取第page页的内容
         try:

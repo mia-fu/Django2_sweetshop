@@ -1,4 +1,4 @@
-{% extends 'base_detail_list.html' %}
+{% extends 'base_no_cart.html' %}
 {% load static %}
 {% block title %}姜饼小屋-购物车{% endblock title %}
 <link rel="icon" href="img/favacon_32x32.webp" type="image/x-icon"/>
@@ -14,7 +14,7 @@
 		<li class="col05">小计</li>
 		<li class="col06">操作</li>
 	</ul>
-
+    <form method="post" action="{% url 'order:place' %}">
     {% for sku in skus %}
 
 	<ul class="cart_list_td clearfix">
@@ -38,16 +38,14 @@
 	</ul>
     {% endfor %}
 
-
-
 	<ul class="settlements">
         {% csrf_token %}
 		<li class="col01"><input type="checkbox" name="" checked=""></li>
 		<li class="col02">全选</li>
 		<li class="col03">合计(不含运费)：<span>¥</span><em>{{ total_price }}</em><br>共计<b>{{ total_count }}</b>件商品</li>
-		<li class="col04"><a href="place_order.html">去结算</a></li>
+		<li class="col04"><input type="submit" value="去结算" ></li>
 	</ul>
-
+    </form>
 {% endblock body %}
 
 

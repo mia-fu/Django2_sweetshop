@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8331c51-b136-4f17-a153-c7a3065f611b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/cov/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cov/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cov/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cov/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/goods/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/user/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/covv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bj-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bj-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bj-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bj-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/info-title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/map_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/china.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_center.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_center1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_left1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_left2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_right1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ec_right2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/echarts-wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/echarts-wordcloud.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/call.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/pachong.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/zong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uwsgi2.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sweetshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sweetshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/search_indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/search_indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/app_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/app_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_tasks/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/drop tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base_detail_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/base_detail_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base_no_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/base_no_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base_user_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/base_user_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/forgetpwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/forgetpwd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/login1.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/login1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/test/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/test/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/forgetpwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/forgetpwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/slide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login1.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/login1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/password_reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/register1.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/register1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/user_center_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/user_center_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfresh.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfresh.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetshop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sweetshop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sweetshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sweetshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetshop/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/sweetshop/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_detail_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_detail_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_no_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_no_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/forgetpwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order_comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order_comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/password_reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/static_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/static_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/static_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_center_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_center_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/fdfs/client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fdfs/client.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/fdfs/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fdfs/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mixin.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="fb67723c-7aad-4476-9ab4-30a7023bfde2" />
+  <component name="ProjectId" id="1gr2MQf5trVCB3rOOvbkrO4hqwF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sweetshop1\static\js" />
+      <recent name="D:\sweetshop\apps\order" />
+      <recent name="D:\sweetshop\apps\cart" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sweetshop1\static\js" />
+      <recent name="D:\sweetshop1\static" />
+      <recent name="D:\sweetshop1\static\css" />
+      <recent name="D:\sweetshop1\static\img" />
+      <recent name="D:\sweetshop1\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.spider">
+    <configuration name="call" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/call.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/cov" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/cov/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/goods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/goods/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sweetshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="sweetshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.sweetshop" />
+      <item itemvalue="Python.call" />
+      <item itemvalue="Python.spider" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.utils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.spider" />
+        <item itemvalue="Python.call" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8331c51-b136-4f17-a153-c7a3065f611b" name="Default Changelist" comment="" />
+      <created>1589333935685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589333935685</updated>
+      <workItem from="1589333945816" duration="8040000" />
+      <workItem from="1589426023696" duration="8517000" />
+      <workItem from="1589511458803" duration="6054000" />
+      <workItem from="1589597326703" duration="4803000" />
+      <workItem from="1589604842662" duration="37000" />
+      <workItem from="1589604910782" duration="2974000" />
+      <workItem from="1589609362115" duration="113000" />
+      <workItem from="1589609747497" duration="2288000" />
+      <workItem from="1589612060151" duration="2763000" />
+      <workItem from="1589803437037" duration="230000" />
+      <workItem from="1589803682365" duration="6439000" />
+      <workItem from="1589859872108" duration="15757000" />
+      <workItem from="1589935656479" duration="11843000" />
+      <workItem from="1589958595165" duration="8328000" />
+      <workItem from="1590021241219" duration="16116000" />
+      <workItem from="1590061342735" duration="534000" />
+      <workItem from="1590062329058" duration="11092000" />
+      <workItem from="1590141573863" duration="13978000" />
+      <workItem from="1590195823120" duration="18328000" />
+      <workItem from="1590283654560" duration="32404000" />
+      <workItem from="1590401686745" duration="6283000" />
+      <workItem from="1590803054825" duration="6250000" />
+      <workItem from="1590890816327" duration="10852000" />
+      <workItem from="1590972462111" duration="17366000" />
+      <workItem from="1591060419865" duration="17755000" />
+      <workItem from="1591151451935" duration="6662000" />
+      <workItem from="1591185473228" duration="7036000" />
+      <workItem from="1591228846763" duration="8222000" />
+      <workItem from="1591266980462" duration="9576000" />
+      <workItem from="1591318039594" duration="3114000" />
+      <workItem from="1591330880968" duration="11170000" />
+      <workItem from="1591402237189" duration="4676000" />
+      <workItem from="1591428851011" duration="2205000" />
+      <workItem from="1591433791135" duration="8263000" />
+      <workItem from="1591490579096" duration="1070000" />
+      <workItem from="1591491998399" duration="33198000" />
+      <workItem from="1591660929792" duration="12912000" />
+      <workItem from="1591757492488" duration="752000" />
+      <workItem from="1591942968690" duration="646000" />
+      <workItem from="1593136622761" duration="1625000" />
+      <workItem from="1593614173955" duration="45682000" />
+      <workItem from="1593822817019" duration="34471000" />
+      <workItem from="1598845225198" duration="1860000" />
+      <workItem from="1598858349296" duration="2400000" />
+      <workItem from="1598861062247" duration="3366000" />
+      <workItem from="1598917414675" duration="449000" />
+      <workItem from="1598917923910" duration="733000" />
+      <workItem from="1598918713787" duration="4415000" />
+      <workItem from="1598930524599" duration="2233000" />
+      <workItem from="1598964902569" duration="5107000" />
+      <workItem from="1599013393172" duration="2026000" />
+      <workItem from="1599016300065" duration="3881000" />
+      <workItem from="1599026367799" duration="6499000" />
+      <workItem from="1599037064920" duration="573000" />
+      <workItem from="1599038569672" duration="351000" />
+      <workItem from="1599045025303" duration="913000" />
+      <workItem from="1599048950640" duration="463000" />
+      <workItem from="1599053714784" duration="302000" />
+      <workItem from="1599103924719" duration="1460000" />
+      <workItem from="1599115070395" duration="729000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1589335432889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589335432890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新用户、购物车模块">
+      <created>1591062947952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591062947952</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新用户注册，登录页面，增加忘记密码功能">
+      <created>1591757860515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591757860515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="更新用户、购物车模块" />
+    <MESSAGE value="更新用户注册，登录页面，增加忘记密码功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新用户注册，登录页面，增加忘记密码功能" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="89" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598860290799">
+      <screen x="72" y="27" width="803" height="737" />
+    </state>
+    <state x="72" y="89" width="424" height="491" key="FileChooserDialogImpl/72.27.803.737@72.27.803.737" timestamp="1598860290799" />
+    <state width="674" height="115" key="GridCell.Tab.0.bottom" timestamp="1599115676183">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state width="674" height="115" key="GridCell.Tab.0.bottom/72.27.728.573@72.27.728.573" timestamp="1599115676183" />
+    <state width="686" height="137" key="GridCell.Tab.0.bottom/72.27.860.639@72.27.860.639" timestamp="1599105139380" />
+    <state width="674" height="115" key="GridCell.Tab.0.center" timestamp="1599115676182">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state width="674" height="115" key="GridCell.Tab.0.center/72.27.728.573@72.27.728.573" timestamp="1599115676182" />
+    <state width="686" height="137" key="GridCell.Tab.0.center/72.27.860.639@72.27.860.639" timestamp="1599105139379" />
+    <state width="674" height="115" key="GridCell.Tab.0.left" timestamp="1599115676168">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state width="674" height="115" key="GridCell.Tab.0.left/72.27.728.573@72.27.728.573" timestamp="1599115676168" />
+    <state width="686" height="137" key="GridCell.Tab.0.left/72.27.860.639@72.27.860.639" timestamp="1599105139379" />
+    <state width="674" height="115" key="GridCell.Tab.0.right" timestamp="1599115676182">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state width="674" height="115" key="GridCell.Tab.0.right/72.27.728.573@72.27.728.573" timestamp="1599115676182" />
+    <state width="686" height="137" key="GridCell.Tab.0.right/72.27.860.639@72.27.860.639" timestamp="1599105139380" />
+    <state x="215" y="27" width="470" height="752" key="RollbackChangesDialog" timestamp="1599033505204">
+      <screen x="72" y="27" width="804" height="863" />
+    </state>
+    <state x="215" y="27" width="470" height="752" key="RollbackChangesDialog/72.27.804.863@72.27.804.863" timestamp="1599033505204" />
+    <state x="72" y="27" width="803" height="737" key="SettingsEditor" timestamp="1598917991617">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state x="72" y="27" key="SettingsEditor/72.27.728.573@72.27.728.573" timestamp="1598917991617" />
+    <state x="68" y="27" width="803" height="737" key="SettingsEditor/72.27.803.737@72.27.803.737" timestamp="1598860298062" />
+    <state x="72" y="27" width="621" height="585" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599049516174">
+      <screen x="72" y="27" width="728" height="670" />
+    </state>
+    <state x="72" y="27" width="718" height="573" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.728.573@72.27.728.573" timestamp="1599014221445" />
+    <state x="72" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.728.670@72.27.728.670" timestamp="1599049516174" />
+    <state x="72" y="27" width="538" height="686" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.728.686@72.27.728.686" timestamp="1598969506673" />
+    <state x="72" y="27" width="546" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.728.762@72.27.728.762" timestamp="1598958814672" />
+    <state x="72" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.728.863@72.27.728.863" timestamp="1599026372316" />
+    <state x="72" y="27" width="554" height="573" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.729.573@72.27.729.573" timestamp="1598923987158" />
+    <state x="72" y="46" width="793" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.803.710@72.27.803.710" timestamp="1598882665338" />
+    <state x="72" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.804.863@72.27.804.863" timestamp="1599034692586" />
+    <state x="72" y="27" width="621" height="585" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.840.585@72.27.840.585" timestamp="1599019821357" />
+    <state x="172" y="127" width="583" height="497" key="dock-window-1" timestamp="1598859035086">
+      <screen x="72" y="27" width="803" height="737" />
+    </state>
+    <state x="172" y="127" width="583" height="497" key="dock-window-1/72.27.803.737@72.27.803.737" timestamp="1598859035086" />
+    <state x="108" y="27" width="581" height="670" key="find.popup" timestamp="1599049214835">
+      <screen x="72" y="27" width="728" height="670" />
+    </state>
+    <state x="108" y="27" width="581" height="670" key="find.popup/72.27.728.670@72.27.728.670" timestamp="1599049214835" />
+    <state x="112" y="27" width="638" height="863" key="find.popup/72.27.804.863@72.27.804.863" timestamp="1599033872733" />
+    <state x="207" y="26" width="672" height="678" key="search.everywhere.popup" timestamp="1599105127269">
+      <screen x="72" y="27" width="860" height="639" />
+    </state>
+    <state x="207" y="26" width="672" height="678" key="search.everywhere.popup/72.27.860.639@72.27.860.639" timestamp="1599105127269" />
+    <state x="161" y="221" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599016578760">
+      <screen x="72" y="27" width="728" height="573" />
+    </state>
+    <state x="161" y="221" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.728.573@72.27.728.573" timestamp="1599016578760" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sweetshop1$test.coverage" NAME="test Coverage Results" MODIFIED="1593673681608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/goods" />
+    <SUITE FILE_PATH="coverage/sweetshop1$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1593690831511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/cov" />
+    <SUITE FILE_PATH="coverage/sweetshop1$spider.coverage" NAME="spider Coverage Results" MODIFIED="1599115676129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/sweetshop1$utils.coverage" NAME="utils Coverage Results" MODIFIED="1593930315850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/sweetshop1$call.coverage" NAME="call Coverage Results" MODIFIED="1593949213979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+</project>

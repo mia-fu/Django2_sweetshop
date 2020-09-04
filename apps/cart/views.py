@@ -18,10 +18,10 @@ from utils.mixin import LoginRequiredMixin
 # ajax发起的请求都在后台，在浏览器中看不到效果
 # /cart/add
 class CartAddView(View):
-    '''购物车记录添加'''
+    """购物车记录添加"""
 
     def post(self, request):
-        '''购物车记录添加'''
+        """购物车记录添加"""
         user = request.user
         if not user.is_authenticated:
             # 用户未登录
@@ -76,10 +76,10 @@ class CartAddView(View):
 
 # /cart/
 class CartInfoView(LoginRequiredMixin, View):
-    '''购物车页面显示'''
+    """购物车页面显示"""
 
     def get(self, request):
-        '''显示'''
+        """显示"""
         # 获取登录的用户
         user = request.user
         # 获取用户购物车中商品的信息
@@ -114,6 +114,19 @@ class CartInfoView(LoginRequiredMixin, View):
                    'total_price': total_price,
                    'skus': skus}
 
+        # 获取用户购物车中商品的数目
+        user = request.user
+        cart_count = 0
+        if user.is_authenticated:
+            # 用户已登录
+            conn = get_redis_connection('default')
+            cart_key = 'cart_%d' % user.id
+            # 获取用户的购物车中数量
+            cart_count = conn.hlen(cart_key)
+
+        # 组织模板上下文
+        context.update(cart_count=cart_count)
+
         # 使用模板
         return render(request, 'cart.html', context)
 
@@ -123,10 +136,10 @@ class CartInfoView(LoginRequiredMixin, View):
 # 前端需要传递的参数:商品id(sku_id) 更新的商品数量(count)
 # /cart/update
 class CartUpdateView(View):
-    '''购物车记录更新'''
+    """购物车记录更新"""
 
     def post(self, request):
-        '''购物车记录更新'''
+        """购物车记录更新"""
         user = request.user
         if not user.is_authenticated:
             # 用户未登录
@@ -180,10 +193,10 @@ class CartUpdateView(View):
 # 前端需要传递的参数:商品的id(sku_id)
 # /cart/delete
 class CartDeleteView(View):
-    '''购物车记录删除'''
+    """购物车记录删除"""
 
     def post(self, request):
-        '''购物车记录删除'''
+        """购物车记录删除"""
         user = request.user
         if not user.is_authenticated:
             # 用户未登录

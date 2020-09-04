@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src='{% static "js/jquery-1.12.4.min.js" %}'></script>
+    <script type="text/javascript" src='{% static "js/echarts.min.js" %}'></script>
+
+    <script type="text/javascript" src='{% static "js/echarts.js" %}'></script>
+    <script type="text/javascript" src='{% static "js/echarts-wordcloud.min.js" %}'></script>
+
+
+    <script type="text/javascript" src='{% static "js/china.js" %}'></script>
+    <link rel="stylesheet" href='{% static "css/common.css" %}'>
+    <link rel="stylesheet" href='{% static "css/map.css" %}'>
+    <link rel="icon" href='{% static "img/blackcat.ico" %}' type="image/x-icon"/>
+</head>
+<body style="height: 100%; margin: 0">
+<div class="data">
+    <div class="fl">
+        <a href="">博客</a>
+        <span>|</span>
+        <a href="">世界疫情实时追踪</a>
+    </div>
+    <div class="fr">
+        <p></p>
+    </div>
+    <div class="data-title">
+        <div class="title-left fl"></div>
+        <div class="title-center fl"></div>
+        <div class="title-right fr"></div>
+    </div>
+
+    <div class="data-content">
+        <div class="con-left fl">
+            <div class="left-top">
+                <div class="info">
+                    <div class="info-title">今日热搜</div>
+                    <img src='{% static "img/bj-1.png" %}' alt="" class="bj-1">
+                    <img src='{% static "img/bj-2.png" %}' alt="" class="bj-2">
+                    <img src='{% static "img/bj-3.png" %}' alt="" class="bj-3">
+                    <img src='{% static "img/bj-4.png" %}' alt="" class="bj-4">
+                    <div id="echarts_0" class="charts"></div>
+                    <script type="text/javascript" src='{% static "js/ec_left1.js" %}'></script>
+
+
+                </div>
+                <div class="top-bottom">
+                    <div class="title">非湖北地区城市确诊TOP5</div>
+                    <img src='{% static "img/bj-1.png" %}' alt="" class="bj-1">
+                    <img src='{% static "img/bj-2.png" %}' alt="" class="bj-2">
+                    <img src='{% static "img/bj-3.png" %}' alt="" class="bj-3">
+                    <img src='{% static "img/bj-4.png" %}' alt="" class="bj-4">
+                    <div id="echarts_1" class="charts"></div>
+                    <script type="text/javascript" src='{% static "js/ec_left2.js" %}'></script>
+
+                </div>
+            </div>
+        </div>
+        <div class="con-center fl">
+            <div class="map">
+                <div class="map-num-top">
+                    <div class="num-top" id="num-top">
+                        <h1>0</h1>
+                        <h2>现有确诊</h2>
+                    </div>
+                </div>
+                <div class="map-num">
+                    <div class="num" id="num1">
+                        <h1>0</h1>
+                    </div>
+                    <div class="num" id="num2">
+                        <h1>0</h1>
+                    </div>
+                    <div class="num" id="num3">
+                        <h1>0</h1>
+                    </div>
+                    <div class="num" id="num4">
+                        <h1>0</h1>
+                    </div>
+                    <div class="num" id="num5">
+                        <h1>0</h1>
+                    </div>
+                </div>
+                <div class="map-txt">
+                    <div class="txt">
+                        <h2>累积确诊</h2>
+                    </div>
+                    <div class="txt">
+                        <h2>剩余疑似</h2>
+                    </div>
+                    <div class="txt">
+                        <h2>累积治愈</h2>
+                    </div>
+                    <div class="txt">
+                        <h2>累积死亡</h2>
+                    </div>
+                    <div class="txt">
+                        <h2>境外输入</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="c2" id="c2">c2</div>
+        </div>
+        <div class="con-right fr">
+            <div class="right-top">
+                <div class="title">全国累计趋势</div>
+                <img src='{% static "img/bj-1.png" %}' alt="" class="bj-1">
+                <img src='{% static "img/bj-2.png" %}' alt="" class="bj-2">
+                <img src='{% static "img/bj-3.png" %}' alt="" class="bj-3">
+                <img src='{% static "img/bj-4.png" %}' alt="" class="bj-4">
+                <div id="echarts_4" class="charts"></div>
+                <script type="text/javascript" src='{% static "js/ec_right1.js" %}'></script>
+
+            </div>
+            <div class="right-bottom">
+                <div class="title">全国新增趋势</div>
+                <img src='{% static "img/bj-1.png" %}' alt="" class="bj-1">
+                <img src='{% static "img/bj-2.png" %}' alt="" class="bj-2">
+                <img src='{% static "img/bj-3.png" %}' alt="" class="bj-3">
+                <img src='{% static "img/bj-4.png" %}' alt="" class="bj-4">
+                <div id="echarts_6" class="charts"></div>
+                <script type="text/javascript" src='{% static "js/ec_right2.js" %}'></script>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+</script>
+<script type="text/javascript" src='{% static "js/ec_center1.js" %}'></script>
+<script type="text/javascript" src='{% static "js/controller.js" %}'></script>
+
+
+</body>
+</html>

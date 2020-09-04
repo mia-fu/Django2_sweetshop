@@ -1,0 +1,14 @@
+2020-06-26 09:57:53,629 INFO  [sweetshop.settings:23] BASE_DIR:  D:\sweetshop1
+2020-06-26 09:57:53,713 INFO  [sweetshop.settings:235] APP_PRIVATE_KEY_PATH: D:\sweetshop1\apps\order\app_private_key.pem
+2020-06-26 09:57:53,713 INFO  [sweetshop.settings:238] ALIPAY_PUBLIC_KEY_PATH: D:\sweetshop1\apps\order\alipay_public_key.pem
+2020-06-26 09:58:08,972 INFO  [sweetshop.settings:23] BASE_DIR:  D:\sweetshop1
+2020-06-26 09:58:08,973 INFO  [sweetshop.settings:235] APP_PRIVATE_KEY_PATH: D:\sweetshop1\apps\order\app_private_key.pem
+2020-06-26 09:58:08,973 INFO  [sweetshop.settings:238] ALIPAY_PUBLIC_KEY_PATH: D:\sweetshop1\apps\order\alipay_public_key.pem
+2020-06-26 09:58:10,883 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader
+2020-06-26 10:03:39,991 INFO  [sweetshop.settings:23] BASE_DIR:  D:\sweetshop1
+2020-06-26 10:03:39,991 INFO  [sweetshop.settings:235] APP_PRIVATE_KEY_PATH: D:\sweetshop1\apps\order\app_private_key.pem
+2020-06-26 10:03:39,992 INFO  [sweetshop.settings:238] ALIPAY_PUBLIC_KEY_PATH: D:\sweetshop1\apps\order\alipay_public_key.pem
+2020-06-26 10:03:50,172 INFO  [sweetshop.settings:23] BASE_DIR:  D:\sweetshop1
+2020-06-26 10:03:50,172 INFO  [sweetshop.settings:235] APP_PRIVATE_KEY_PATH: D:\sweetshop1\apps\order\app_private_key.pem
+2020-06-26 10:03:50,172 INFO  [sweetshop.settings:238] ALIPAY_PUBLIC_KEY_PATH: D:\sweetshop1\apps\order\alipay_public_key.pem
+2020-06-26 10:03:52,361 INFO  [django.utils.autoreload:578] Watching for file changes with StatReloader

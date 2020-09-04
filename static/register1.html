@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>姜饼小屋-注册</title>
+
+    <link rel="stylesheet" type="text/css" href="css/test/register.css">
+    <script type="text/javascript" src='js/jquery-1.12.4.min.js'></script>
+	<script type="text/javascript" src='js/register.js'></script>
+</head>
+
+<body>
+<div class="content s--signup">
+    <div class="sub-cont">
+        <div class="img">
+            <div class="img__text m--in">
+                <h2>已有帐号？</h2>
+                <p>有帐号就登录吧，好久不见了！</p>
+            </div>
+            <div class="img__btn">
+                <a href="login1.html"> <span class="m--in">登 录</span> </a>
+            </div>
+        </div>
+        <div class="form sign-up">
+            <form method="post" action="/user/register">
+                <h2>欢迎加入</h2>
+                <label>
+                    <span>用户名</span>
+                    <input type="text" name="user_name" id="user_name">
+                    <span class="error_tip">提示信息</span>
+                </label>
+                <label>
+                    <span>邮箱</span>
+                    <input type="text" name="email" id="email">
+                    <span class="error_tip">提示信息</span>
+                </label>
+                <label>
+                    <span>密码</span>
+                    <input type="password" name="pwd" id="pwd">
+                    <span class="error_tip">提示信息</span>
+                </label>
+                <label>
+                    <span>确认密码</span>
+                    <input type="password" name="cpwd" id="cpwd">
+                    <span class="error_tip">提示信息</span>
+                </label>
+
+                <p class="forgot-pass">
+                    <input type="checkbox" name="allow" id="allow" checked="checked">
+                    <label>同意”姜饼小屋用户使用协议“</label>
+                    <span class="error_tip">提示信息</span>
+                </p>
+                <input type="submit" name="" value="注 册" class="input_submit2">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div style="text-align:center;">
+</div>
+</body>
+
+</html>
