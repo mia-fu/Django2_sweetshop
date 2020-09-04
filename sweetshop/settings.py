@@ -27,7 +27,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'a73mnp^l_wpg7*@babb93pyyrc0w&$1!+l4%**p56%(1@60^dg'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
@@ -169,7 +169,7 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = '自己的qq@qq.com'
 
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = 'dsadsadaoobgaf'
+EMAIL_HOST_PASSWORD = 'password'
 
 # 这里的是前缀，也就是头
 EMAIL_SUBJECT_PREFIX = u'[Sercheif]'
@@ -229,7 +229,7 @@ FDFS_URL = 'http://192.168.8.130:8888/'
 ALLOWED_HOSTS = ['*']
 
 # 支付宝沙箱APP_ID
-ALIPAY_APP_ID = '2016102400749766'
+ALIPAY_APP_ID = '2016'
 
 # 支付宝网站回调url地址
 ALIPAY_APP_NOTIFY_URL = None
